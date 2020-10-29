@@ -127,6 +127,52 @@ body{
     transition: 0.5s;
     transform: scale(1.3);
 }
+.about{
+    width: 100%;
+    height: 31.25em;
+    background-color: var(--blue);
+    position: relative;
+}
+.about-angulation{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.angulation{
+    width: 100%;
+    height: 27em;
+    background-color: var(--background);
+    transform: skewY(-4deg);
+}
+.container-about{
+    width: 100%;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+}
+.content-about{
+    width: 80%;
+    max-width: 75em;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-about{
+    width: 50%;
+    text-align: justify;
+}
+.content-about img{
+    max-width: 31.875em;
+}
+.text-about h2{
+    margin-bottom: 1em;
+    font-size: 2.18em;
+}
+.text-about p{
+    font-size: 1.25em;
+}
 
 /* Até 1199px */
 @media screen and (max-width: 74.93em){
