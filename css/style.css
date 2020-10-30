@@ -173,6 +173,85 @@ body{
 .text-about p{
     font-size: 1.25em;
 }
+.games-aovivo::after{
+    content: '';
+    border: solid 1px white;
+    height: 3em;
+    margin-left: 1.5em;
+}
+/* .linha{
+    border: solid 1px #fff;
+    height: 65%;
+    margin-left: 2em;
+} */
+.games-aovivo, .games-embreve{
+    display: flex;
+    align-items: center;
+    font-size: 1.8em;
+    color: white;
+    margin-left: 1.5em;
+}
+.partida{
+    display: flex;
+    align-items: center;
+    width: 9.5em;
+    margin-left: 1em;
+}
+.versus{
+    font-weight: bold;
+}
+.partida img{
+    width: 1.8em;
+}
+.time1, .time2{
+    display: flex;
+    align-items: center;
+}
+.time1 img{
+    margin-left: 0.5em;
+}
+.time2 img{
+    margin-right: 0.5em;
+}
+.container-noticias-conteudo{
+    display: flex;
+}
+.noticias{
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    height: 56.15em;
+    color: white;
+}
+.noticias-titulo{
+    margin-left: 1.4em;
+    margin-bottom: 0.5em;
+    padding-top: 1em;
+}
+.noticias-conteudo{
+    width: 80%;
+    max-width: 63em;
+    height: 90%;
+    max-height: 55em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 14.81em;
+    height: 22.75em;
+    background: linear-gradient(180deg, rgba(58,58,58,1) 0%, rgba(44,44,44,1) 44%, rgba(0,0,0,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 20px 4px #000000;
+    margin: 1em 2em;
+}
+.card h3{
+    padding: 0.7em 0;
+}
+.card p{
+    padding: 0 0.7em;
+}
+
 
 /* Até 1199px */
 @media screen and (max-width: 74.93em){
