@@ -251,7 +251,47 @@ body{
 .card p{
     padding: 0 0.7em;
 }
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+.prox-partidas{
+    width: 20%;
+    max-width: 20em;
+    height: 49.5em;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 20px 4px #000000;
+    background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
 
+}
+.partidas-detalhes{
+    width: 12em;
+    height: 4.875em;
+    margin-top: 3em;
+    font-size: 20px;
+}
+.partidas-next{
+    display: flex;
+    justify-content: center;
+}
+.partidas-next .time1 img{
+    width: 2em;
+    height: 2em;
+}
+.partidas-next .time2 img{
+    width: 2em;
+    height: 2em;
+}
+.partidas-next .versus{
+    margin: 0.5em 0.5em 0 0.5em;
+}
+.data-partidas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.9em;
+}
 
 /* Até 1199px */
 @media screen and (max-width: 74.93em){
