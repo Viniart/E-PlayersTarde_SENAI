@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -72,7 +72,7 @@
             </div>
         </section>
         <section class="games">
-            <div class="content flex-spbt-center">
+            <div class="content flex-spac-center">
                 <div class="games-aovivo">
                     <h2>Ao Vivo</h2>
                     <div class="partida">
@@ -87,7 +87,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="linha"></div> -->
+                <div class="linha"></div>
                 <!-- Fim dos Games Ao-Vivo -->
                 <div class="games-embreve">
                     <h2>Em Breve</h2>
@@ -118,9 +118,9 @@
         </section>
         <!-- Fim da Seção Games -->
         <section class="noticias">
-            <div class="content">
-                <h2 class='noticias-titulo'>Notícias</h2>
-                <div class="container-noticias-conteudo">
+            <div class="content flex-spbt-center">
+                <div class="noticias-geral">
+                    <h2 class='noticias-titulo'>Notícias</h2>
                     <div class="noticias-conteudo">
                         <div class="card">
                             <img src="img/T1 1.png" alt="Notícia 1(Placeholder)">
@@ -153,7 +153,10 @@
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, incidunt iste? Vitae, libero eligendi odio sed nisi cupiditate quos ducimus, quisquam, a illo velit quasi! Reiciendis accusantium quam vel non?</p>
                         </div>
                     </div>
-                         <!-- Fim dos Cards de Notícias -->
+                </div>
+                    <!-- Fim dos Cards de Notícias -->
+                    <aside class="prox-partidas-geral">
+                        <h2 class='prox-partidas-titulo'>Próximas Partidas</h2>
                         <div class="prox-partidas">
                             <div class="partidas-detalhes">
                                 <div class="partidas-next">
@@ -236,13 +239,48 @@
                                 </div>
                             </div>
                         </div>
+                    </aside>
                 </div>
-            </div>
         </section>
     </main>
-    <footer>
-
+    <footer class='rodapé'>
+        <div class="content flex-spbt-center">
+            <div class="links-footer">
+                <div class="links">
+                    <h2>Links Úteis</h2>
+                    <ul>
+                        <li><a href="#">Regras de Utlização</a></li>
+                        <li><a href="#">Suporte</a></li>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h2>Páginas</h2>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Campeonatos</a></li>
+                        <li><a href="#">Resultados</a></li>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Login/Cadastro</a></li>
+                    </ul>
+                </div>
+            </div>
+            <img src="img/logo.svg" alt="Logo do E-Players">
+            <div class="sociais">
+                <h2>Faça parte do nosso clan, receba notícias e promoções!</h2>
+                <form action="" class='formulario'>
+                    <input type="email" placeholder="E-Mail">
+                    <input type="submit" value="Cadastrar">
+                </form>
+                <div class='siga-nos'>
+                    <h2>Siga-nos em:</h2>
+                    <a href="#"><img src="img/Insta.png" alt="Logo do Instagram"></a>
+                    <a href="#"><img src="img/Face.png" alt="Logo do Facebook"></a>
+                    <a href="#"><img src="img/Youtube.png" alt="Logo do Youtube"></a>
+                </div>
+            </div>
+        </div>
     </footer>
-    
 </body>
 </html>
