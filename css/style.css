@@ -60,7 +60,7 @@ body{
 .menu a{
     color: #fff;
     text-decoration: none;
-    font-size: 1.46em;
+    font-size: 1.4em;
     font-family: var(--font);
     text-transform: uppercase;
     padding: 1.1em 0.8em;
@@ -80,7 +80,7 @@ body{
 }
 .banner-container{
     width: 100%;
-    height: 37.5em;
+    height: 100%;
     position: absolute;
     top: 0;
 }
@@ -93,7 +93,7 @@ body{
     justify-content: flex-end;
 }
 .banner-text{
-    width: 50%;
+    width: 53%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -261,6 +261,9 @@ body{
 .card p{
     padding: 0 0.7em;
 }
+.card img{
+    width: 100%;
+}
 .card:hover{
     transition: 0.5s;
     transform: scale(1.05);
@@ -288,7 +291,7 @@ body{
     width: 100%;
     height: 4.875em;
     margin-top: 3em;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 .partidas-next{
     display: flex;
@@ -326,6 +329,9 @@ body{
 .rodapé{
     margin: 2em 0;
 }
+.logo{
+    max-width: 21.18em;
+}
 .sociais h2{
     color: white;
 }
@@ -352,28 +358,76 @@ body{
     padding-left: 0.5em;
 }
 .sociais input[type='submit']{
-    height: 1.77em;
+    height: 1.78em;
     width: 9.75em;
     color: white;
     background-color: #8326EF;
     font-weight: bold;
     font-size: 1.1em;
 }
+.icones-footer{
+    width: 12em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* Até 1199px */
 @media screen and (max-width: 74.93em){
-
+    body{
+        font-size: 11.5px;
+    }
+    .games .flex-spbt-center img{
+        width: 13em;
+    }
+    .sociais input[type='submit']{
+        height: 2.4em;
+    }
+    .sociais input[type='email']{
+        height: 2em;
+    }
 }
 
 /* Até 991px */
 @media screen and (max-width: 61.96em){
-    
+    body{
+        font-size: 9.5px;
+    }
+    .menu{
+        margin-right: 30px;
+    }
+    .sociais input[type='email']{
+        height: 1.9em;
+    }
 }
 
 /* Até 767px */
 @media screen and (max-width: 47.93em){
     #menu-bars{
         display: inline;
+    }
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .menu ul{
+        display: none;
+    }
+    .menu a:hover{
+        text-shadow:  3px 5px 10px var(--red);
+        text-decoration: underline;
+    }
+    .menu-links{
+    width: 100%;
+    height: 350px;
+    background-color: #000;
+    position: absolute;
+    top: 45px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 99;
     }
 }
 
