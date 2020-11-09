@@ -94,7 +94,7 @@ body{
     justify-content: flex-end;
 }
 .banner-text{
-    width: 53%;
+    width: 60%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -166,6 +166,7 @@ body{
     justify-content: space-between;
 }
 .text-about{
+    font-size: 16px;
     width: 50%;
     text-align: justify;
 }
@@ -381,36 +382,110 @@ body{
 /* Até 1199px */
 @media screen and (max-width: 74.93em){
     body{
-        font-size: 11.5px;
+        font-size: 14px;
+    }
+    .menu-base{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-base img{
+        margin-top: 0.7em;
+    }
+    .text-about p{
+        font-size: 1em;
     }
     .games .flex-spbt-center img{
         width: 13em;
+    }
+    .card{
+        margin: 1em 0.9em;
     }
     .sociais input[type='submit']{
         height: 2.4em;
     }
     .sociais input[type='email']{
-        height: 2em;
+        height: 2.8em;
     }
 }
 
 /* Até 991px */
 @media screen and (max-width: 61.96em){
     body{
-        font-size: 9.5px;
+        font-size: 13px;
     }
     .menu{
         margin-right: 30px;
     }
+    .banner-text{
+        font-size: 11px;
+    }
+    .games ul{
+        font-size: 10px;
+    }
+    .content-about{
+        position: relative;
+    }
+    .container-about{
+        height: 100%;
+    }
+    .content-about{
+        height: 100%;
+    }
+    .games{
+        font-size: 11.2px;
+    }
+    .text-about{
+        width: 95%;
+    }
+    .noticias{
+        height: 85em;
+    }
+    .noticias-titulo{
+        margin-left: 2em;
+    }
+    .noticias .flex-spbt-center{
+        align-items: unset;
+    }
+    .noticias-geral,.prox-partidas-geral{
+        margin-top: 1.5em;
+    }
+    .prox-partidas{
+        height: 75em;
+        margin-top: 3em;
+    }
+    .prox-partidas-geral{
+        height: 75em;
+    }
+    .card{
+        font-size: 14px;
+        margin: 1em 2.1em;
+    }
+    .partidas-detalhes{
+        margin-top: 5em;
+    }
+    .container-about img{
+        font-size: 10px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        opacity: 0.3;
+    }
+    .rodapé{
+        font-size: 10px;
+    }
     .sociais input[type='email']{
-        height: 1.9em;
+        height: 2em;
+        width: 10em;
     }
 }
 
 /* Até 767px */
 @media screen and (max-width: 47.93em){
     body{
-        font-size: 7.5px;
+        font-size: 12px;
+    }
+    .menu-base{
+        flex-direction: row;
     }
     #menu-bars{
         display: inline;
@@ -431,22 +506,61 @@ body{
     height: 350px;
     background-color: #000;
     position: absolute;
-    top: 37px;
+    top: 60px;
     right: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     z-index: 99;
     }
+    .noticias .flex-spbt-center{
+        display: block;
+    }
+    .noticias-geral{
+        margin-top: unset;
+        width: 100%;
+        max-width: unset;
+        max-height: 60em;
+    }
+    .noticias-titulo{
+        margin-top: 1em;
+    }
+    .prox-partidas-geral{
+        width: 100%;
+        max-width: unset;
+        height: 23em;
+    }
+    .prox-partidas-titulo{
+        display: flex;
+        justify-content: center;
+        padding-top: 1em;
+    }
+    .prox-partidas{
+        width: 100%;
+        height: 16em;
+        margin-top: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .partidas-detalhes{
+        margin-top: unset;
+        width: 30%;
+    }
+    .card{
+        margin: 1em 0.8em;
+    }
     .sociais input[type='email']{
-        height: 1.55em;
+        height: 2em;
     }
 }
 
 /* Até 576px */
 @media screen and (max-width: 36em){
     body{
-        font-size: 5.5px;
+        font-size: 11px;
     }
     .sociais input[type='email']{
         height: 1.16em;
