@@ -513,6 +513,12 @@ body{
     justify-content: space-around;
     z-index: 99;
     }
+    .banner-text{
+        width: 100%;
+    }
+    .noticias{
+        height: 110em;
+    }
     .noticias .flex-spbt-center{
         display: block;
     }
@@ -520,10 +526,21 @@ body{
         margin-top: unset;
         width: 100%;
         max-width: unset;
-        max-height: 60em;
+        max-height: 90em;
+    }
+    .noticias-conteudo{
+        justify-content: center;
     }
     .noticias-titulo{
         margin-top: 1em;
+        display: flex;
+        justify-content: center;
+    }
+    .games{
+        font-size: 8.2px;
+    }
+    .games .flex-spbt-center{
+        font-size: 8px;
     }
     .prox-partidas-geral{
         width: 100%;
@@ -533,11 +550,11 @@ body{
     .prox-partidas-titulo{
         display: flex;
         justify-content: center;
-        padding-top: 1em;
+        padding-top: 0;
     }
     .prox-partidas{
         width: 100%;
-        height: 16em;
+        height: 14em;
         margin-top: 0;
         display: flex;
         flex-direction: row;
@@ -548,12 +565,38 @@ body{
     .partidas-detalhes{
         margin-top: unset;
         width: 30%;
+        margin-left: 1em;
     }
     .card{
-        margin: 1em 0.8em;
+        margin: 1em 2em;
     }
     .sociais input[type='email']{
-        height: 2em;
+        height: 1.6em;
+    }
+    .formulario{
+        width: 12em;
+        margin: 0;
+    }
+    .links-footer{
+        width: 23%;
+        flex-direction: column;
+        margin-left: 5em;
+    }
+    .rodapé{
+        font-size: 8px;
+    }
+    .instaimg{
+        width: 5em;
+    }
+    .faceimg{
+        width: 6em;
+    }
+    .youtubeimg{
+        margin-left: 5px;
+        width: 4em;
+    }
+    .sociais input[type='email']::placeholder{
+        font-size: 10px;
     }
 }
 
@@ -562,8 +605,57 @@ body{
     body{
         font-size: 11px;
     }
-    .sociais input[type='email']{
-        height: 1.16em;
+    .menu-links{
+        top: 55px;
     }
-    
+    .noticias{
+        height: 120em;
+    }
+    .banner-text{
+        font-size: 9px;
+    }
+    .content{
+        width: 100%;
+    }
+    .games{
+        font-size: 9.2px;
+    }
+    .games .flex-spbt-center{
+        font-size: 5.5px;
+    }
+    .about{
+        height: 35em;
+    }
+    .games .flex-spac-center{
+        flex-direction: column;
+    }
+    .linha{
+        display: none;
+    }
+    .text-about h2{
+        margin-bottom: 0.2em;
+    }
+    .noticias{
+        height: 108em;
+    }
+    .noticias-geral{
+        max-height: 84em;
+    }
+    .card{
+        margin: 1em 0.5em;
+        font-size: 12px;
+    }
+    .partidas-detalhes{
+        margin-left: 2em;
+    }
+    .prox-partidas{
+        height: 18em;
+    }
+    .sociais input[type='email']{
+        height: 1.2em;
+        width: 6em;
+    }
+    .rodapé{
+        font-size: 7px;
+    }
 }
